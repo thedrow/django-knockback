@@ -44,4 +44,4 @@ setup(name='django-knockback',
     description='A django app that contains the necessary javascript files to use knockback.js',
     keywords=['django', 'knockout.js', 'backbone.js', 'jquery', 'knockback.js'],
     url='https://github.com/thedrow/django-knockback/',
-    install_requires=['Django>=1.3'])
+    install_requires=['Django>=1.3', 'django_compress'])

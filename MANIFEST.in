@@ -5,3 +5,4 @@ include README.rst
 include requirements.txt
 
 recursive-include knockback *.js
+recursive-include knockback *.html

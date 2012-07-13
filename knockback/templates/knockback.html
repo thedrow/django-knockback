@@ -1,0 +1,10 @@
+{% load compress %}
+{% load staticfiles %}
+
+{% compress js %}
+    <script type="text/javascript" src="{% static "underscore.js" %}" />
+    <script type="text/javascript" src="{% static "jquery.js" %}" />
+    <script type="text/javascript" src="{% static "backbone.js" %}" />
+    <script type="text/javascript" src="{% static "knockout.js" %}" />
+    <script type="text/javascript" src="{% static "knockback.js" %}" />
+{% endcompress %}
