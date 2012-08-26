@@ -11,7 +11,7 @@ The current versions of the javascript libraries are:
 - Underscore 1.3.3
 - Backbone 0.9.2
 - Knockout 2.1.0
-- Knockback 0.15.3
+- Knockback 0.15.4
 
 
 Installation:
