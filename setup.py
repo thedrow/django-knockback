@@ -10,10 +10,11 @@ The app depends on `django-compressor <https://github.com/jezdez/django_compress
 
 The current versions of the javascript libraries are:
 
-- Underscore 1.3.3
-- Backbone 0.9.2
-- Knockout 2.1.0
-- Knockback 0.15.4
+- JQuery 1.8.3
+- Underscore 1.4.3
+- Backbone 0.9.9
+- Knockout 2.2.0
+- Knockback 0.16.8
 
 
 Installation:
