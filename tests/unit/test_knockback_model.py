@@ -1,6 +1,7 @@
 from django.conf import settings
 
-settings.configure(DEBUG=True)
+if not settings.configured:
+    settings.configure()
 
 from django.db.models import Model as DjangoModel, fields
 from unittest.case import TestCase
