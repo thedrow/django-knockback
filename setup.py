@@ -34,7 +34,7 @@ The base.js has two blocks named head and body that contain the content of their
 __maintainer__ = "Omer Katz"
 __email__ = "omer.drow@gmail.com"
 __license__ = "BSD"
-__version__ = "0.1.1"
+__version__ = "0.2.0"
 __status__ = "Stable"
 
 setup(name='django-knockback',
@@ -47,4 +47,4 @@ setup(name='django-knockback',
     description='A django app that contains the necessary javascript files to use knockback.js',
     keywords=['django', 'knockout.js', 'backbone.js', 'jquery', 'knockback.js'],
     url='https://github.com/thedrow/django-knockback/',
-    install_requires=['Django>=1.3', 'django_compress'])
+    install_requires=['Django>=1.3', 'django_compress', 'djangorestframework>2.0'])

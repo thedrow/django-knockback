@@ -1,4 +1,5 @@
 Django>=1.3
 django_compress
+djangorestframework>=2.0
 lettuce
 sure
