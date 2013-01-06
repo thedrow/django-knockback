@@ -10,8 +10,7 @@ class Model(object):
             self.model_instance = None
         else:
             raise TypeError(
-                'A django model type or instance was not provided. Found %s instead.' % model.__class__.__name__ if isinstance(
-                    model, type) else '%s instance' % model.__class__.__name__)
+                'A django model type or instance was not provided. Found %s instance instead.' % model.__class__.__name__)
 
         fields = self.model._meta.fields
 

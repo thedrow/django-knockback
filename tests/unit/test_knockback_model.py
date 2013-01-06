@@ -35,7 +35,7 @@ class KnockBackModelTests(TestCase):
     def test_that_when_instantiating_a_knockback_model_and_any_argument_that_is_not_a_django_model_type_was_provided_a_type_error_is_raised(
             self):
         with self.assertRaisesRegexp(TypeError,
-            r"^A django model type or instance was not provided. Found [a-zA-Z_]+ instead.$"):
+            r"^A django model type or instance was not provided. Found [a-zA-Z_]+ instance instead.$"):
             Model(object)
 
     def test_that_when_instantiating_a_knockback_model_and_any_argument_that_is_a_django_model_instance_was_provided_no_error_is_raised(
@@ -88,7 +88,7 @@ class KnockBackModelTests(TestCase):
 
         sut = Model(model)
 
-        self.assertEquals(sut.attributes, {'number': 1, 'string': "foo"})
+        self.assertEquals(sut.attributes, {'test_id': None, 'number': 1, 'string': "foo"})
 
     def test_that_when_instantiating_a_knockback_model_and_any_argument_that_is_a_django_model_type_was_provided_no_error_is_raised(
             self):
