@@ -1,6 +1,7 @@
 from setuptools import setup
 
-__doc__ = """================
+__doc__ = """
+================
 django-knockback
 ================
 
@@ -10,11 +11,11 @@ The app depends on `django-compressor <https://github.com/jezdez/django_compress
 
 The current versions of the javascript libraries are:
 
-- JQuery 1.8.3
-- Underscore 1.4.3
-- Backbone 0.9.9
+- jQuery 1.9.1
+- Underscore 1.4.4
+- Backbone 1.0.0
 - Knockout 2.2.0
-- Knockback 0.16.8
+- Knockback 0.17.0
 
 
 Installation:
@@ -30,12 +31,13 @@ Include the 'knockback' app in the ``INSTALLED_APPS`` and then type::
     ./manage.py collectstatic.
 
 To include knockback.js into your page just include the knockback/knockback.html template into the <head> tag or extend the knockback/base.html template.
-The base.js has two blocks named head and body that contain the content of their respective tags."""
+The base.html has two blocks named head and body that contain the content of their respective tags.
+"""
 
 __maintainer__ = "Omer Katz"
 __email__ = "omer.drow@gmail.com"
 __license__ = "BSD"
-__version__ = "0.1.2"
+__version__ = "0.1.3"
 __status__ = "Stable"
 
 setup(name='django-knockback',
